@@ -35,7 +35,7 @@ p{
     color:white;
     animation-name: head-ani;
     animation-delay: 0s;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
     
 }
 
@@ -69,10 +69,12 @@ p{
     
 }
 #skills{
-    background-color: #020206;
+    background-color: #dfe6e9;
    
 }
-
+#projects{
+    background-color: #020206 ;
+}
 .reveal{
     position: relative;
     transform: translateY(150px);
@@ -106,7 +108,7 @@ p{
     padding-bottom: 5%;
 }
 #contact{
-    background-color: black;
+    background-color: #020206;
     width:100%;
     height: 100%;
     text-align: center;
@@ -114,3 +116,31 @@ p{
     padding-bottom: 10%;
    
 }
+#cv-download{
+    background-color: #020206;
+}
+
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
